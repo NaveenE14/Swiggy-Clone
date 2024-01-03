@@ -1,0 +1,23 @@
+.dashline{
+    border: none;
+    border-bottom: 1px dashed #d3d3d3;
+    margin-bottom: 18px;
+    box-sizing: content-box;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+  .solidline {
+    border: none;
+    border-bottom: 1px solid #d3d3d3; 
+    box-sizing: content-box;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }

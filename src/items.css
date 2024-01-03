@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200&display=swap');
+
+.items-container{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.name{
+  font-weight: bold;
+  font-family: poppins;
+  font-size: 1.43rem;
+  font-weight: 600;
+  color: #282c3f;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.time{
+  font-weight: bold;
+  font-family: poppins;
+  justify-content: space-between;
+  color: #3e4152;
+  font-size: 15px;
+  font-weight: 700;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.time svg {
+  vertical-align: middle;
+  margin-right: 5px; 
+}
+.time p1 {
+  display: inline;
+}
+
+
+.items-cuisines,
+.items-area {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(2, 6, 12, 0.6);
+  margin-top: 4px;
+  margin-bottom: 4px;
+}

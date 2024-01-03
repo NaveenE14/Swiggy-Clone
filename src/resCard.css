@@ -1,0 +1,74 @@
+.restaurant-card {
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    gap: 12px;
+    border-radius: 10px;
+    transition: all 0.05s ease 0s;
+    border: 2px solid transparent;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(0.94);
+    border-color: #F15700;
+    border-radius: 20px;
+  }
+  
+  .restaurant-card img {
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    align-items: left;
+  }
+                                          /* Restaurant Detail Styles */
+  .restaurant-name {
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: Poppins ;
+    font-weight:600;
+    color: rgba(2, 6, 12, 0.92);
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .restaurant-rating {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 4px;
+    color: rgba(2, 6, 12, 0.92);
+  }
+  
+  .star-icon {
+    margin-top: -4px;
+  }
+  
+  .restaurant-rating span {
+    display: inline;
+    font-family: Bricolage Grotesque; 
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: -3px;
+    align-items: center;
+    padding-top: 2px;
+    gap:12px;
+  }
+  
+  .restaurant-cuisine,
+  .restaurant-areaName {
+    padding-top: 4px;
+    -webkit-font-smoothing: antialiased;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }

@@ -1,0 +1,48 @@
+h3 { 
+    font-family:poppins;
+    color: #282c3f;
+    font-weight: 400;
+    margin-right: 4px;
+    font-weight: 500;
+    color: #3e4152;
+    word-break: break-word;
+    display: block;
+    font-size: 1.0em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4 {
+    font-family:poppins;
+    color: #282c3f;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 4px;
+    color: #3e4152;
+    word-break: break-word;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h5 {
+    font-family:poppins;
+    color: #282c3f;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-right: 4px;
+    color: #3e4152;
+    word-break: break-word;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.item-container{
+    border-right: 2rem solid transparent; 
+    border-left: 2rem solid transparent; 
+}
