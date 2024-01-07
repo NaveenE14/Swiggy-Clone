@@ -9,7 +9,7 @@ const ResContainer = () => {
   
   
     const fetchData = async () => {
-      const res = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=11.0237524&lng=76.9452173&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
+      const res = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=10.996215314760386&lng=76.9679557532072&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
       const json = await res.json()
       console.log(json)
       const informations = json.data.cards[5].card.card.gridElements.infoWithStyle.restaurants
