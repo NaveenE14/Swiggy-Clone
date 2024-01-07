@@ -97,6 +97,8 @@ input {
   font-size: 14px; 
   outline: none;
   display: flex;
+  font-family: poppins;
+  font-weight: 600;
 }
 
 .button:hover {
