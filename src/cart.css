@@ -1,0 +1,25 @@
+.cart {
+    width: 271px;
+    height: 256px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/2xempty_cart_yfxml0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart h3 {
+    display: block;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: poppins;
+    margin-left: 2rem;
+    font-family: poppins;
+    font-size: 1.5rem;
+    color: #3e4152;
+    margin-top: 30rem;
+}

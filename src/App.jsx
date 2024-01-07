@@ -1,7 +1,7 @@
 
 import {RouterProvider,createBrowserRouter} from "react-router-dom"
 import About from "./components/About"
-import Contact from "./components/Contact"
+import Cart from "./components/Cart"
 import Restaurent from "./components/Restaurent"
 import Resdetails from "./components/ResDetails"
 import Header from "./components/Header"
@@ -13,6 +13,7 @@ import './resCard.css'
 import  './lines.css'
 import './itemcategory.css'
 import './itemlists.css'
+import './cart.css'
 
 const Home = () => {
   return (
@@ -36,8 +37,8 @@ const router=createBrowserRouter([
       element:<About/>
     },
     {
-      path:"contact",
-      element:<Contact/>
+      path:"cart",
+      element:<Cart/>
     },
     {
       path:'restaurant/:Resid',
@@ -51,8 +52,8 @@ const router=createBrowserRouter([
     element:<About/>
   },
   {
-    path:"/contact",
-    element:<Contact/>
+    path:"/cart",
+    element:<Cart/>
   }
 ])
 

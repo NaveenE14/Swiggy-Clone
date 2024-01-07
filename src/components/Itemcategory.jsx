@@ -9,7 +9,7 @@ const Itemcategory=(props)=> {
         
         <div className='category-title'>{category.card.card.title}</div>
         <p className='solidline'></p>
-        <div>
+        <div className='item-cards'>
           {category.card.card.itemCards.map((item)=>{
              return <Itemlist item={item}/>
           })}

@@ -1,48 +1,70 @@
-h3 { 
-    font-family:poppins;
-    color: #282c3f;
-    font-weight: 400;
-    margin-right: 4px;
-    font-weight: 500;
-    color: #3e4152;
-    word-break: break-word;
-    display: block;
-    font-size: 1.0em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+.item-container {
+    width: 300px;
+    padding: 5px;
+    cursor: pointer;
+    gap: 5px;
+    border-radius: 10px;
+    transition: all 0.05s ease 0s;
+    border: 2px solid transparent;
+    
 }
-h4 {
-    font-family:poppins;
-    color: #282c3f;
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-right: 4px;
-    color: #3e4152;
-    word-break: break-word;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.item-container:hover {
+    border: 2px solid #f15700;
+    transition: all 0.05s ease 0s;
+    transform: scale(0.94);
 }
-h5 {
-    font-family:poppins;
+  
+  .item {
+    flex: 0 0 calc(33.33% - 2rem);
+    margin: 0rem;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align:left;
+  }
+  
+  .item h3,
+  .item h4,
+  .item h5 {
+    font-family: poppins;
     color: #282c3f;
-    font-size: 0.9rem;
+    word-break: break-word;
+    margin: 0;
+  }
+  
+  .item h3 {
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+  
+  .item h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  .item h5 {
     font-weight: 300;
-    margin-right: 4px;
-    color: #3e4152;
-    word-break: break-word;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.item-container{
-    border-right: 2rem solid transparent; 
-    border-left: 2rem solid transparent; 
-}
+    font-size: 0.9rem;
+  }
+  
+  .item-image {
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    align-items: left;
+  }
+
+  .item-cards{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: row;
+  }
+  

@@ -1,20 +1,24 @@
 import React from 'react'
 
 function Itemlist(props) {
-    const {item}=props
+  const { item } = props;
+
   return (
-    <div className='item-container'>
-        <div><h3>{item.card.info.name}</h3> </div>
-            <div><h4>₹{item.card.info.price/100}</h4></div>
-            <div aria-hidden="true">
-      <i className="veg-icon" role="presentation" aria-hidden="true" style={{ lineHeight: '1.2' }}></i>
+    <div className="item-container">
+      <div className="item">
+        <h3>{item.card.info.name}</h3>
+        <h4>₹{item.card.info.price / 100}</h4>
+        <span>
+          <img
+            className="item-image"
+            src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/${item.card.info.imageId}`}
+            alt={item.card.info.name}
+          />
+        </span>
+        <h5>{item.card.info.description}</h5>
+      </div>
     </div>
-        <div><h5>
-            {item.card.info.description}</h5>
-        </div>
-        <p className='solidline'></p>
-    </div>
-  )
+  );
 }
 
 export default Itemlist
