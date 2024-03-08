@@ -12,12 +12,12 @@ const Header = () => {
       </linearGradient>
     </defs>
     <nav>
-        <Link to='/'><p>HOME</p></Link> </nav>
+        <Link to='/' className="nav-link"><p>HOME</p></Link> </nav>
   </svg>
   <nav>
-        <Link to='/'><p>HOME</p></Link>
-        <Link to='/about'><p>ABOUT</p></Link>
-        <Link to='/cart'><p>CART</p></Link>
+        <Link to='/' className="nav-link"><p>HOME</p></Link>
+        <Link to='/about' className="nav-link"><p>ABOUT</p></Link>
+        <Link to='/cart' className="nav-link"><p>CART</p></Link>
       </nav>
     </div>
     

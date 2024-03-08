@@ -12,7 +12,7 @@ const ResContainer = () => {
       const res = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=10.996215314760386&lng=76.9679557532072&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
       const json = await res.json()
       console.log(json)
-      const informations = json.data.cards[5].card.card.gridElements.infoWithStyle.restaurants
+      const informations = json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
       const details = informations.map((data) => data.info)
       console.log(informations[0].info)
       setRestaurants(details)

@@ -5,7 +5,7 @@ const ResCard = ({a}) => {
   const id=a.id
   return (
     <div className="restaurant-card">
-      <Link to={`/restaurant/${id}`}>
+      <Link to={`/restaurant/${id}`} className="nav-link">
       <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${a.cloudinaryImageId}`} alt={a.name} />
       <div className="restaurant-details">
         <div className="restaurant-name">{a.name}</div>
