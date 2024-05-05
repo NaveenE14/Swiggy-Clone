@@ -8,14 +8,14 @@ function Resdetails() {
     const [details,categories] =useResDetails(params)
   
     if (Object.values(details).length === 0) {
-      return <h3>Loading.....</h3>;
+    
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <img src="https://media.tenor.com/images/dd8fb14389004c87f4b507554b057a50/tenor.gif" alt="Animated GIF" />
+      </div>
+    );
     }
-    if(Object.values(details).length===0)
-    {
-      return(
-        <h3>Loading.....</h3>
-      )
-    }
+
     console.log(details)
 
   return (
